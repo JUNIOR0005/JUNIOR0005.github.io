@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    padding: 40px;
+}
+
+.main{
+    width: 400px;
+    height: 400px;
+    background: rgb(53, 52, 83);
+    transform: translate(2px);
+}
+
+.modal{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(192, 192, 206);
+    color: #000;
+    font-weight: 30%;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    text-align: center;
+}

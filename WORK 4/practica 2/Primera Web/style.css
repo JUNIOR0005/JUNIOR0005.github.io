@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    background:#000 url(img/fondo.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+header{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+
+.main{
+    background: #fff;
+    padding: 20px;
+    width: 70px;
+}
+
+.main article .thumb{
+    margin-bottom: 20px;
+}
+
+.main article .thumb img{
+    width: 100px;
+    vertical-align: top;
+}
+
+.main article h2{
+    margin-bottom: 200px;
+    font-weight: normal;
+    font-size: 32;
+}
+
+.main article p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+aside{
+    width: 30px;
+    background: #357dca;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside .ad{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    background: #4264a2;
+}
+
+foot{
+    margin: 20px;
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .redes-sociales{
+    color: #fff;
+    text-decoration: undeline;
+    margin-left: 20px;
+}
+
+footer .redes-sociales a:hover{
+    text-decoration: none;
+}

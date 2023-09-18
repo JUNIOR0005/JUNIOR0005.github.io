@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: #21295c;
+    color: #cf5c36;
+}
+
+.contenedor{
+    width:300px;
+    margin:20px;
+    margin: auto;
+    background:#eee5e9;
+    padding:20px;
+}
+
+form p{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align:center;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 18%;
+    background:#cf5c36;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    font-size:12px;
+    padding:12px;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.resta{
+    background: skyblue;
+    border-radius: 10px;
+}
+
+.suma:hover{
+    background: #21295c;
+}
+
+.resta:hover{
+    background: #21295c;
+}
+
+.multi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.multi:hover{
+    background: #21295c;
+}
+
+.multi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.resi:hover{
+    background: #21295c;
+}
+
+.multi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.divi:hover{
+    background: #21295c;
+}
+
+.multi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.divi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.multi{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.residuo{
+    border-radius: 10px;
+    background: skyblue;
+}
+
+.suma{
+    border-radius: 10px;
+    background: skyblue;
+}

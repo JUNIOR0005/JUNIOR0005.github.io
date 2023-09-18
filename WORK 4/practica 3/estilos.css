@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.contenedor{
+    width: 92%;
+    background: rgb(100, 200, 133);
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.item{
+    padding: 50px 40px;
+    display: inline-block;
+}
+
+.item1{
+    background: rgb(20, 153, 220);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.item2{
+    background: darkslateblue;
+    margin-left: -80px;
+    color: darkslateblue;
+}
