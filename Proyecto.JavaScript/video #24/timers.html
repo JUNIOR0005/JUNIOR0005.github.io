@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timers, Timeout e Interval</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    (function(){
+        var contador = 0;
+
+        var saludo = function(){
+            contador++;
+            console.log(contador);
+
+            setTimeout(saludo, 1000);
+        };
+
+    saludo();
+
+    // var intervalo = setinterval(saludo,1000)
+
+    }())
+
+</script>
+</html>

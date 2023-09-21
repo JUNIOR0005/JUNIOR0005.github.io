@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docunebt Object Model</title>
+</head>
+<body>
+    <ol id="lista">
+        <li>lorem ipsum dolor sit amet.</li>
+        <li>Asperiores ad, qum unde. Fuga.</li>
+    </ol>
+    <script>
+        var elemento = document.createElement("li")
+        contenido = document.createTextNode("Nuevo Texto");
+        elemento.appendChild("contenido");
+
+        var padre = document.getElementsByTagName("li")[0].parentNode,
+        primerElemento = document.getElementsByTagName("li")[1];
+        padre.insertBefore(elemento,primerElemento);
+    </script>
+</body>
+</html>
