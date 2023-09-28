@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ambitos de Variables</title>
+    </head>
+    <body>
+
+        <script>
+            //Global - Podemos acceder a ellas desde cualquier parte del codigo.
+            //Local - Variables creadas dentro de una funcion, solo pueden ser accedidas desde su funcion o una funcion anidada.
+
+            (function(){
+                var variableGlobal = "Esta es Global";
+
+                var miFuncion = function(){
+                //var variableLocal = "Esta es Local";
+                alerta(variableLocal);
+
+                var funcionLocal = function(){
+                    var variableLocal = "Esta es variable local,dentro de funcionalLocal";
+                    //alert(variableLocal);
+                }
+                funcionLocal();
+                }
+                miFuncion();
+                //alerta(variableGlobal);
+            }())
+
+        </script>
+    </body>
+</html>

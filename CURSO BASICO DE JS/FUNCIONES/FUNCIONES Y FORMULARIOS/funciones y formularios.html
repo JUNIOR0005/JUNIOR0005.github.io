@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Funciones y Formularios</title>
+    </head>
+    <body>
+
+        <form action="">
+            <input type="text" id="numer1">
+            <input type="text" id="numer2">
+            <input type="button "id="sumar" onclick="alert(suma(10,50));">
+        </form>
+
+        <script>
+            var suma = function(numero1,numero2){
+                var numero1 = parseFloat(document.getElementById("numero1").value);
+                var numero1 = parseFloat(document.getElementById("numero2").value);
+
+                var resultado = numero1 + numero2;
+                return resultado;
+            }
+            //var numeroMaximo = function(valor1, valor2){
+                //if (valor1 > valor2){
+                    //return valor1;
+                //}
+                //return valor2;
+            //}
+
+            //document.write("El numero maximo es: " + numeroMaximo(1,7))
+
+            //numeroMaximo(10,20);
+
+            //var suma = function(numero1,numero2){
+                //var numero1 = numero2;
+                //var numero2 = numero2;
+                //return numero1 + numero2;
+            //}
+
+            //document.write(suma(40,50));
+            //document.write(<br>);
+            //document.write(suma(10,70));
+        </script>
+    </body>
+</html>
