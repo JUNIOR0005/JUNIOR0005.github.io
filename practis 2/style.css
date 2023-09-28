@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    border: 3px solid;
+    border-radius: 50px;
+    margin: 0 auto;
+    transition-property: ;
+}
+
+.element{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 79, 87);
+    margin: 20px;
+    transition-property: clip-path, transform, background-color;
+    transition-duration: 3000ms;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    
+}
+
+.container:hover .element{
+    clip-path:circle(20%);
+    transform: translate(100%);
+    background: #000;
+}
