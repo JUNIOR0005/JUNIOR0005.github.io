@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: cornsilk;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    padding: 0px 700px;
+
+}
+
+.contenedor{
+    width: 400px;
+    margin: 40px;
+}
+
+.formulario .contenedor-inputs{
+    padding: 20px;
+    background: rgb(246, 179, 179);
+    border-radius: 6px ;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus{
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.formulario input[type="radio"]{
+    display: none;
+}
+.formulario .sexo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formulario .sexo .hombre{
+    border-radius: 3px 0 0 3px;
+}
+
+.formulario .sexo .mujer{
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .label-radio{
+    background: rgb(193, 133, 141);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+.formulario .label-radios{
+    background: rgb(193, 133, 141);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+.formulario .label-radios:hover{
+    background: rgb(36, 89, 174);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+.formulario .label-radio:hover{
+    background: rgb(174, 36, 55);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+
+.formulario input[type="radio"]:checked + .label-radio {
+    background: palevioletred;
+}
+
+.formulario input[type="radio"]:checked + .label-radios {
+    background: rgb(112, 190, 216);
+}
+
+.formulario .terminos{
+    text-align: center;
+    color: rgb(233, 122, 122);
+}
+
+.formulario .terminos label {
+    margin-left: 10px;
+}
+
+.formulario .error{
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: palevioletred;
+    color: aliceblue;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+.formulario .btn{
+    width: 100%;
+    text-align: center;
+    background: rgb(112, 46, 24);
+    color: aliceblue;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 12px;
+}
+
+.formulario .btn:hover{
+    background: rgb(161, 79, 35);
+    color: aliceblue;
+    font-family: sans-serif;
+}
