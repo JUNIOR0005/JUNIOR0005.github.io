@@ -1,0 +1,685 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: #d9e5e7;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 36px;
+    background-color: #444;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-align: right;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 20px;
+    font-size: 24px;
+    background-color: #1c6d47;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #003c80;
+    transform: scale(0.95);
+}
+
+/* CSS for screens larger than 768px */
+@media (min-width: 768px) {
+    /* Add responsive styles here */
+}
+
+/* CSS for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
+
+/* Style for the entire contact form */
+.contact-form {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for form input fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the "Send" button */
+.contact-form button[type="submit"] {
+    background-color: #2b648a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #121c22;
+}
+
+/* Style for the social media icons container */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for individual social media icons */
+.social-icon {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between icons as needed */
+    font-size: 24px; /* Adjust icon size as needed */
+    color: #3498db; /* Adjust icon color */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #2980b9; /* Change color on hover */
+}
+
+/* Style for the portfolio section */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.project {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #3c4c5e;
+}
+
+/* Blog Section Styles */
+.blog {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Blog Post Styles */
+.blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #666;
+    margin: 0 20px 20px;
+}
+
+.blog-post .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 20px 20px;
+    transition: background-color 0.2s;
+}
+
+.blog-post .btn:hover {
+    background-color: #0056b3;
+}
+
+/* About Me Section */
+.about {
+    background-color: #f8f8f8;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* My Mentor Section */
+.mentor-info {
+    margin-top: 30px;
+}
+
+.mentor-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.mentor-info p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* CSS for Blog Post */
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.blog-post h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.blog-post em {
+    color: #777;
+    font-size: 14px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.blog-post a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.blog-post a:hover {
+    color: #090e13;
+}
+
+.blog-post a[target="_blank"]::after {
+    content: "(opens in a new tab)";
+    font-size: 14px;
+    margin-left: 5px;
+    color: #777;
+}
+
+/* Back to Blog Link */
+.blog-post a.back-to-blog {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1c4b7c;
+    transition: color 0.3s;
+}
+
+.blog-post a.back-to-blog:hover {
+    color: #070a0e;
+}
+
+/* Project Description Styling */
+.project-description {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-details {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.project-details a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.project-details a:hover {
+    color: #0f1b29;
+}
+
+  /* Project-specific Styling */
+.smart-clock-description {
+    background-color: #f5f5f5;
+}
+
+.interactive-calculator-description {
+    background-color: #f0f0f0;
+}
+
+  /* Example Usage */
+.smart-clock-description .project-title {
+    color: #ff5733;
+}
+
+.interactive-calculator-description .project-title {
+    color: #33a2ff;
+}
+
+/* Header Styles */
+header {
+    background-color: #242424; /* Dark background color for the header */
+    color: #fff; /* Text color for the header links */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+nav ul {
+    list-style: none; /* Remove default list bullets */
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align the navigation links to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Add spacing between navigation links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ff5733; /* Change link color on hover */
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f2f2f2; /* Light background color for the about section */
+    padding: 50px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.container {
+    max-width: 800px; /* Set maximum width for content */
+    margin: 0 auto; /* Center align the container */
+}
+
+h1 {
+    font-size: 36px; /* Font size for the heading */
+    color: #333; /* Text color for the heading */
+}
+
+p {
+    font-size: 18px; /* Font size for the paragraph */
+    color: #666; /* Text color for the paragraph */
+}
+
+/* Header Styles */
+header {
+    background-color: #242424; /* Dark background color for the header */
+    color: #fff; /* Text color for the header links */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    text-align: center; /* Center align the content in the header */
+}
+
+nav ul {
+    list-style: none; /* Remove default list bullets */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Add spacing around navigation links */
+}
+
+/* ... (rest of the CSS styles remain the same) */
+
+/* Header Styles */
+header {
+    background-color: #242424; /* Dark background color for the header */
+    color: #fff; /* Text color for the header links */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    text-align: center; /* Center align the content in the header */
+}
+
+nav ul {
+    list-style: none; /* Remove default list bullets */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Add spacing around navigation links */
+    position: relative; /* Create a stacking context for the pseudo-element */
+}
+
+nav ul li::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust the position of the underline */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: transparent; /* Initial background color is transparent */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+nav ul li:hover::after {
+    background-color: #fff; /* Background color on hover */
+}
+
+/* ... (rest of the CSS styles remain the same) */
+
+/* Projects Section */
+#portfolio {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#portfolio p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Individual Project Cards */
+.project {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Centered Text */
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust this width to your preference */
+    padding: 20px;
+}
+
+.center-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.center-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.center-text p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1a237e;
+}
+
+/* styles.css */
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust this as needed */
+}
+
+.project {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
