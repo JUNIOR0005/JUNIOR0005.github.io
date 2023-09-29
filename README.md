@@ -23,7 +23,7 @@ The AngelCraft repository features a variety of projects, including:
 2. Check out project descriptions, goals, technologies used, and my role in each project.
 3. Feel free to view the source code, experiment with it, or use it as a reference for your own projects.
 4. If you have any questions or feedback, don't hesitate to reach out!
-5. Visit the [AngelCraft Repository](https://github.com/JUNIOR0005/ANGELcrafts/AngelCraft) on GitHub.[personal website](file:///C:/Users/angel/OneDrive/Documents/PROF.GEO/II%20SEMESTRE/FINAL%20PROJECT/PERSONAL%20WEB/personal%20webpage.html).
+5. Visit the [AngelCraft Repository](https://junior0005.github.io/)
 6. Explore the "Portfolio" section to view the projects completed during the year.
 7. Read blog posts about the journey and experiences related to the projects.
 
